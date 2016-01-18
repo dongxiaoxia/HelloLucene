@@ -1,0 +1,2 @@
+# HelloLucene
+lucene demo
