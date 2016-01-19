@@ -1,0 +1,28 @@
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.top{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.search-form{
+    float: left;
+}
+.search {
+    margin-left: 100px;
+    height: 35px;
+    width: 600px;
+}
+
+.top-right a{
+    float: right;
+    margin-right: 13px;
+    margin-left: 15px;
+}
+.dividing-line {
+    padding-left: 100px;
+    background: #f8f8f8;
+    line-height: 36px;
+    height: 38px;
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: #33CC99;
+}
+
+.container {
+}
+
+.title {
+    color: #6666FF;
+    font-size: 100px;
+    padding-top: 30px;
+}
+
+.sec_title {
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.view {
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.index_search input {
+    width: 530px;
+    height: 35px;
+}
