@@ -35,6 +35,7 @@
         </dependency>
         <dependency>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-grouping</artifactId>
             <version>${lucene.version}</version>
@@ -70,6 +71,8 @@
             <version>${lucene.version}</version>
         </dependency>
         <dependency>
+=======
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
 =======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
             <groupId>org.springframework</groupId>

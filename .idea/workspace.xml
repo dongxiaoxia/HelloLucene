@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="bce40932-5d75-4a3c-b52f-ee02a2ead6bc" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/404.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/405.jsp" />
@@ -32,6 +33,9 @@
 =======
     <list default="true" id="bce40932-5d75-4a3c-b52f-ee02a2ead6bc" name="Default" comment="" />
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
+=======
+    <list default="true" id="bce40932-5d75-4a3c-b52f-ee02a2ead6bc" name="Default" comment="" />
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
     <ignored path="HelloLucene.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,12 +58,15 @@
   <component name="FileEditorManager">
     <leaf>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.88554215">
               <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
 =======
+=======
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/test.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/404.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/405.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/500.jsp" />
@@ -138,10 +146,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
 =======
+=======
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
         <option value="$PROJECT_DIR$/src/main/java/xyz/dongxiaoxia/hellolucene/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/xyz/dongxiaoxia/hellolucene/LuceneTest.java" />
+<<<<<<< HEAD
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
+=======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
       </list>
     </option>
@@ -276,6 +289,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -310,15 +324,21 @@
 =======
               <option name="myItemId" value="indexPath" />
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
+=======
+              <option name="myItemId" value="indexPath" />
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
 =======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
     </panes>
@@ -335,6 +355,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resources/css/index.css" />
   </component>
   <component name="RecentsManager">
@@ -348,6 +369,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 6.0.26">
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.LuceneTest">
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -676,6 +703,9 @@
 =======
       <workItem from="1453123184422" duration="1618000" />
       <workItem from="1453178414636" duration="1303000" />
+<<<<<<< HEAD
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
+=======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
@@ -695,7 +725,11 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="16923000" />
+=======
+    <option name="totallyTimeSpent" value="5462000" />
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
 =======
     <option name="totallyTimeSpent" value="5462000" />
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
@@ -710,6 +744,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
@@ -734,6 +769,11 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -747,6 +787,9 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
+=======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -755,14 +798,20 @@
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40296054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 =======
+=======
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43421054" sideWeight="0.5781487" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
+=======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -773,7 +822,10 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09298532" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
 =======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
     </layout>
@@ -806,6 +858,7 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -837,10 +890,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
 =======
+=======
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
+=======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
           <folding />
         </state>
@@ -861,6 +919,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -907,6 +966,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/test.html">
+=======
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
 =======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
       <provider selected="true" editor-type-id="text-editor">
@@ -997,8 +1058,13 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.88554215">
           <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
 =======
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
@@ -1008,7 +1074,10 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
     <entry file="file://$PROJECT_DIR$/src/main/java/xyz/dongxiaoxia/hellolucene/LuceneTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8249337">
@@ -1019,6 +1088,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+>>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
+=======
 >>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
   </component>
   <component name="masterDetails">
