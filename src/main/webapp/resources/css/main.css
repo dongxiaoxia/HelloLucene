@@ -26,3 +26,17 @@
     line-height: 36px;
     height: 38px;
 }
+.main{
+    padding-top: 60px;
+}
+.content{
+    padding-left: 100px;
+}
+.item-title{
+    font-size: 16px;
+}
+.item-info{
+    font-size: 14px;
+    line-height: 1.54;
+    margin-top: 3px;
+}
