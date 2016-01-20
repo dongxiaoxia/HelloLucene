@@ -10,6 +10,7 @@
     <properties>
         <spring.version>4.1.1.RELEASE</spring.version>
         <lucene.version>5.1.0</lucene.version>
+        <commons-lang3.version>3.4</commons-lang3.version>
     </properties>
 
     <dependencies>
@@ -34,8 +35,6 @@
             <version>${lucene.version}</version>
         </dependency>
         <dependency>
-<<<<<<< HEAD
-<<<<<<< HEAD
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-grouping</artifactId>
             <version>${lucene.version}</version>
@@ -71,10 +70,6 @@
             <version>${lucene.version}</version>
         </dependency>
         <dependency>
-=======
->>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
-=======
->>>>>>> ca056618ea7b24603f30fe1ebcdfe2b0d2da8fc8
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>${spring.version}</version>
@@ -117,6 +112,11 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
         </dependency>
     </dependencies>
 

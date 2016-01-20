@@ -26,9 +26,9 @@
     <div class="row top">
         <div class="project-icon"></div>
         <div class="search-form col-md-8">
-            <form action="/main" method="get">
+            <form action="/lucene/search" method="get">
                 <input class="search" type="text" name="search">
-                <button type="submit" name="submit" class="btn btn-info">搜索</button>
+                <button type="submit" class="btn btn-info">搜索</button>
             </form>
         </div>
         <div class="top-right col-md-4">
@@ -36,7 +36,7 @@
             <a href="https://github.com/dongxiaoxia">view on GitHub</a>
         </div>
     </div>
-    <div class="dividing-line col-md-12">HelloLucene为您找到相关结果**个，用时**毫秒</div>
+    <div class="dividing-line col-md-12">HelloLucene为您找到相关结果${total}个，用时${time}毫秒</div>
     <div class="content"></div>
 </div>
 

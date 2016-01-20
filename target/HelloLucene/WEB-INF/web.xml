@@ -100,12 +100,12 @@
 		<error-code>405</error-code>
 		<location>/WEB-INF/405.jsp</location>
 	</error-page>
-	<!--暂时注释掉，让错误直接显示在页面中，方便调试-->
-	<!--<error-page>-->
-	<!--&lt;!&ndash; 内部错误 &ndash;&gt;-->
-	<!--<error-code>500</error-code>-->
-	<!--<location>/WEB-INF/500.jsp</location>-->
-	<!--</error-page>-->
+	暂时注释掉，让错误直接显示在页面中，方便调试
+	<error-page>
+	<!-- 内部错误 -->
+	<error-code>500</error-code>
+	<location>/WEB-INF/500.jsp</location>
+	</error-page>
 
 	<!--&lt;!&ndash;获取${website}地址&ndash;&gt;-->
 	<!--<filter>-->
