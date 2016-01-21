@@ -44,6 +44,30 @@
             <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
             <a class="download" href="">全文下载</a>
         </div>
+        <div class="content col-md-8">
+            <div><a class="item-title" href="">名称名称名称名称名称名称名称名称名称名称名称名称名称名称名.doc</a></div>
+            <p class="item-info">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
+            <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
+            <a class="download" href="">全文下载</a>
+        </div>
+        <div class="content col-md-8">
+            <div><a class="item-title" href="">名称名称名称名称名称名称名称名称名称名称名称名称名称名称名.doc</a></div>
+            <p class="item-info">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
+            <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
+            <a class="download" href="">全文下载</a>
+        </div>
+        <div class="content col-md-8">
+            <div><a class="item-title" href="">名称名称名称名称名称名称名称名称名称名称名称名称名称名称名.doc</a></div>
+            <p class="item-info">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
+            <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
+            <a class="download" href="">全文下载</a>
+        </div>
+        <div class="content col-md-8">
+            <div><a class="item-title" href="">名称名称名称名称名称名称名称名称名称名称名称名称名称名称名.doc</a></div>
+            <p class="item-info">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
+            <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
+            <a class="download" href="">全文下载</a>
+        </div>
     </div>
 </div>
 </div>
