@@ -27,7 +27,7 @@
         <div class="title">Hello Lucene</div>
         <div class="sec_title">全文检索系统</div>
         <div class="index_search">
-            <form action="/lucene/search">
+            <form action="/lucene/search" method="post">
                 <input type="text" class="" name="search" placeholder="lucene一下">
                 <button type="submit" class="btn btn-info" name=""><span>搜索</span></button>
             </form>

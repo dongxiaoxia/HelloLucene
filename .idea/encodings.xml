@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/lib/IKAnalyzer-5.3.1.jar" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/xyz/dongxiaoxia/hellolucene/IKAnalzyerDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/xyz/dongxiaoxia/hellolucene/LuceneIndexAndSearchDemo.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

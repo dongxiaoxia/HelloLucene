@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
     <title>HelloLucene</title>
@@ -26,7 +27,7 @@
     <div class="row top">
         <div class="project-icon"></div>
         <div class="search-form col-md-8">
-            <form action="/lucene/search" method="get">
+            <form action="/lucene/search" method="post">
                 <input class="search" type="text" name="search">
                 <button type="submit" class="btn btn-info">搜索</button>
             </form>
@@ -38,36 +39,15 @@
     </div>
     <div class="dividing-line col-md-12">HelloLucene为您找到相关结果${total}个，用时${time}毫秒</div>
     <div class="main container-fluid">
-        <div class="content col-md-8">
-            <div><a class="item-title" href="">名称名称名称名称名称名称名称名称名称名称名称名称名称名称名.doc</a></div>
-            <p class="item-info">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
-            <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
-            <a class="download" href="">全文下载</a>
-        </div>
-        <div class="content col-md-8">
-            <div><a class="item-title" href="">名称名称名称名称名称名称名称名称名称名称名称名称名称名称名.doc</a></div>
-            <p class="item-info">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
-            <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
-            <a class="download" href="">全文下载</a>
-        </div>
-        <div class="content col-md-8">
-            <div><a class="item-title" href="">名称名称名称名称名称名称名称名称名称名称名称名称名称名称名.doc</a></div>
-            <p class="item-info">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
-            <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
-            <a class="download" href="">全文下载</a>
-        </div>
-        <div class="content col-md-8">
-            <div><a class="item-title" href="">名称名称名称名称名称名称名称名称名称名称名称名称名称名称名.doc</a></div>
-            <p class="item-info">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
-            <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
-            <a class="download" href="">全文下载</a>
-        </div>
-        <div class="content col-md-8">
-            <div><a class="item-title" href="">名称名称名称名称名称名称名称名称名称名称名称名称名称名称名.doc</a></div>
-            <p class="item-info">导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
-            <a class="item-url" href="">wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>
-            <a class="download" href="">全文下载</a>
-        </div>
+        <c:forEach var="item"  items="${document}">
+            <div class="content col-md-8">
+                <div><a class="item-title" href="">${item.name}</a></div>
+                <p class="item-info">
+                    导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
+                <a class="item-url" href="">${item.path}</a>
+                <a class="download" href="">全文下载</a>
+            </div>
+        </c:forEach>
     </div>
 </div>
 </div>

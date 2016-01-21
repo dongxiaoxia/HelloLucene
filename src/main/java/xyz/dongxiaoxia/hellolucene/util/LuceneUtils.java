@@ -1,7 +1,6 @@
 package xyz.dongxiaoxia.hellolucene.util;
 
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.TextField;
@@ -14,6 +13,7 @@ import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.search.highlight.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.wltea.analyzer.lucene.IKAnalyzer;
 
 import java.io.IOException;
 import java.nio.file.Paths;
@@ -30,7 +30,8 @@ import java.util.concurrent.ExecutorService;
  */
 public class LuceneUtils {
     private static final LuceneManager luceneManager = LuceneManager.getInstance();
-    private static Analyzer analyzer = new StandardAnalyzer();
+//    private static Analyzer analyzer = new StandardAnalyzer();
+    private static Analyzer analyzer = new IKAnalyzer(true);
 
     /**
      * 打开索引目录

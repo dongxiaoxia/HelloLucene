@@ -31,12 +31,20 @@
 }
 .content{
     padding-left: 100px;
+    padding-bottom: 20px;
 }
 .item-title{
+    color: #3399FF;
     font-size: 16px;
 }
 .item-info{
-    font-size: 14px;
-    line-height: 1.54;
+    color: #545454;
+    font-size: 12px;
+    line-height: 1.74;
     margin-top: 3px;
+    margin-bottom: -3px;
+}
+.item-url,.download{
+    font-size: 10px;
+    color: #00CCCC;
 }

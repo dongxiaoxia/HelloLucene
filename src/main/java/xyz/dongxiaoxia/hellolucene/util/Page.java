@@ -217,8 +217,8 @@ public class Page {
             page.setCurrentPage(i+1);
             String[] pageRange = page.getPageRange();
             System.out.println("当前第" + page.currentPage + "页");
-            for(int j=0; j < pageRange.length; j++) {
-                System.out.print(pageRange[j] + "  ");
+            for (int j=0;j<pageRange.length; j++){
+                System.out.println(pageRange[j] + " ");
             }
             System.out.println("\n");
         }
