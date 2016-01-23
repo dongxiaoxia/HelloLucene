@@ -28,7 +28,7 @@
         <div class="project-icon"></div>
         <div class="search-form col-md-8">
             <form action="/lucene/search" method="post">
-                <input class="search" type="text" name="search">
+                <input class="search" type="text" VALUE="${search}" name="search">
                 <button type="submit" class="btn btn-info">搜索</button>
             </form>
         </div>
@@ -41,11 +41,10 @@
     <div class="main container-fluid">
         <c:forEach var="item"  items="${document}">
             <div class="content col-md-8">
-                <div><a class="item-title" href="">${item.name}</a></div>
-                <p class="item-info">
-                    导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。导航条是在您的应用或网站中作为导航页头的响应式基础组件。它们在移动设备上可以折叠（并且可开可关），且在视口（viewport）宽度增加时逐渐变为水平展开模式。</p>
-                <a class="item-url" href="">${item.path}</a>
-                <a class="download" href="">全文下载</a>
+                <div><a class="item-title" target="_blank" href="/lucene/detail/${item.md5}">${item.name}</a></div>
+                <p class="item-info">${item.content}</p>
+                <a class="item-url" href="/lucene/download/${item.md5}">${pageContext.request.scheme}://${pageContext.request.serverName}:${pageContext.request.localPort}/lucene/download/${item.md5}</a>
+                <a class="download" href="/lucene/download/${item.md5}">全文下载</a>
             </div>
         </c:forEach>
     </div>

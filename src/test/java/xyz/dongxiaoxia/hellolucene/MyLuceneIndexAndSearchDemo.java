@@ -25,22 +25,18 @@
  */
 package xyz.dongxiaoxia.hellolucene;
 
-import org.apache.commons.lang3.ArrayUtils;
-import org.apache.lucene.document.*;
-import org.apache.lucene.index.CorruptIndexException;
-import org.apache.lucene.index.IndexWriter;
-import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.document.Document;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
-import org.apache.lucene.store.LockObtainFailedException;
+import org.apache.lucene.search.highlight.Highlighter;
 import org.wltea.analyzer.lucene.IKAnalyzer;
 import xyz.dongxiaoxia.hellolucene.util.LuceneUtils;
 
-import java.io.*;
+import java.io.IOException;
 
 /**
  * 使用IKAnalyzer进行Lucene索引和查询的演示 2012-3-2
@@ -55,39 +51,8 @@ public class MyLuceneIndexAndSearchDemo {
 	 *
 	 * @param args
 	 */
-	public static void main(String[] args) {
-
-		try {
-			IndexWriterConfig config = new IndexWriterConfig(new IKAnalyzer(true));
-			config.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
-			IndexWriter writer = LuceneUtils.getIndexWriter("F:\\Github项目\\HelloLucene\\indexPath", config);
-			File dir = new File("F:\\Github项目\\HelloLucene\\DocPath");
-			File[] files = dir.listFiles();
-			if (ArrayUtils.isEmpty(files)) {
-				throw new IllegalArgumentException("该目录下没有文件：" + dir.getAbsolutePath());
-			}
-			long start = System.currentTimeMillis();
-			for (File file : files) {
-				Document document = new Document();
-				document.add(new StringField("name", file.getName(), Field.Store.YES));
-				document.add(new StringField("path", file.getAbsolutePath(), Field.Store.YES));
-				document.add(new LongField("size", file.length(), Field.Store.YES));
-				document.add(new StringField("type", file.getName().substring(file.getName().lastIndexOf(".")+1), Field.Store.YES));
-				StringBuffer buffer = new StringBuffer();
-				BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
-				char[] c = new char[1024];
-				while ((bufferedReader.read(c)) != -1) {
-					buffer.append(c);
-				}
-				bufferedReader.close();
-				document.add(new TextField("content", buffer.toString(), Field.Store.YES));
-				LuceneUtils.addIndex(writer, document);
-			}
-			LuceneUtils.closeIndexWriter(writer);
-			long end = System.currentTimeMillis();
-			System.out.println("索引完成，共耗时" + (end - start) + "ms");
-
-			// 搜索过程**********************************
+	public static void main(String[] args) throws ParseException, IOException {
+		// 搜索过程**********************************
 			// 实例化搜索器
 			IndexSearcher searcher = LuceneUtils.getIndexSearcher(LuceneUtils.getIndexReader(LuceneUtils.openFSDirectory("F:\\Github项目\\HelloLucene\\indexPath")));
 
@@ -95,7 +60,7 @@ public class MyLuceneIndexAndSearchDemo {
 			// 使用QueryParser查询分析器构造Query对象
 			QueryParser qp = new QueryParser("content",new IKAnalyzer(true));
 			qp.setDefaultOperator(QueryParser.AND_OPERATOR);
-			Query query = qp.parse(keyword);
+			Query query = qp.parse("java");
 			System.out.println("Query = " + query);
 
 			// 搜索相似度最高的5条记录
@@ -104,18 +69,11 @@ public class MyLuceneIndexAndSearchDemo {
 			// 输出结果
 			ScoreDoc[] scoreDocs = topDocs.scoreDocs;
 			for (int i = 0; i < topDocs.totalHits; i++) {
-			//	Document targetDoc = isearcher.doc(scoreDocs[i].doc);
-			//	System.out.println("内容：" + targetDoc.toString());
+				Document targetDoc = searcher.doc(scoreDocs[i].doc);
+				Highlighter highlighterParam = LuceneUtils.createHighlighter(query, "<span>", "</span>", 100);
+
+				System.out.println("内容：" + LuceneUtils.highlight(targetDoc, highlighterParam, new IKAnalyzer(true), "content"));
 			}
 
-		} catch (CorruptIndexException e) {
-			e.printStackTrace();
-		} catch (LockObtainFailedException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
 	}
 }
